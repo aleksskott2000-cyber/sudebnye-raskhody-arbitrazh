@@ -1,0 +1,31 @@
+{
+  "schema_version": 1,
+  "precedence": "A user-supplied source statement or act always overrides the corresponding built-in template.",
+  "templates": [
+    {
+      "kind": "statement",
+      "file": "statement-template.docx",
+      "preview": "statement-preview.png",
+      "pages": 2,
+      "sha256": "CE6DB337545CFE967BDFC55EEE5D7F4C950F9EF33AFF21AE4E37DC7BE878B8CF"
+    },
+    {
+      "kind": "act",
+      "file": "act-template.docx",
+      "preview": "act-preview.png",
+      "pages": 1,
+      "sha256": "8A40A9A7B9A8AF7A6D12234EF25837FB0309CADD1BEA8A393E0225D30401A35C"
+    }
+  ],
+  "embedded_instructions": [
+    {
+      "file": "../references/launch-prompt-original.md",
+      "sha256": "9A6FFDAB76CA004B56D02F831A0B827677D992275EE00700A64D49B13B310B28"
+    },
+    {
+      "file": "../references/governing-instruction-original.md",
+      "sha256": "CCCBC0923C84A008ECBD3AF21E26102B4876CA97F8E79CF9A6E076735360F4B8"
+    }
+  ]
+}
+

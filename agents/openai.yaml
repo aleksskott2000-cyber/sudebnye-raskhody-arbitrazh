@@ -1,0 +1,7 @@
+interface:
+  display_name: "Судебные расходы"
+  short_description: "Заявление и акт по судебным расходам"
+  default_prompt: "Используй $sudebnye-raskhody-arbitrazh для анализа папки дела и подготовки готовых заявления и акта."
+policy:
+  allow_implicit_invocation: true
+
